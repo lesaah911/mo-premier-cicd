@@ -34,7 +34,7 @@ pipeline {
                 echo '✅ Vérification que le site est accessible...'
                 sh '''
                     sleep 5
-                    curl -f http://54.144.89.57 || exit 1
+                    curl -f http://98.93.97.238 || exit 1
                 '''
             }
         }
